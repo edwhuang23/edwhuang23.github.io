@@ -1,0 +1,22 @@
+.text {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-image: url(gradient.png);
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    background-image: url('edwardhuang.png');
+    background-size: cover;
+    display: block;
+    background-position: center;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    alt: "Edward Huang profile picture";
+    margin: 0 auto;
+}

@@ -80,7 +80,7 @@ div {
 }
 
 body {
-    background-image: url(gradient.png);
+    background-image: url('gradient.png');
     animation: fadeEffect 2.5s;
 }
 

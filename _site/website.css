@@ -41,6 +41,12 @@
     float: left;
 }
 
+.profile-pic {
+    text-align: center;
+    padding: 20px;
+    border-radius: 0%;
+}
+
 .it {
     width: 50px;
     height: 50px;
@@ -82,23 +88,6 @@ div {
 body {
     background-image: url('gradient.png');
     animation: fadeEffect 2.5s;
-}
-
-#image-cropper {
-    width: 120px;
-    height: 120px;
-    background-image: url('edwardhuang.png');
-    background-size: cover;
-    display: inline-block;
-    background-position: center;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    alt: "Edward Huang profile picture";
-    position: relative;
-    top: 5px;
-    bottom: 5px;
-    left: 10px;
 }
 
 .topnavitem {

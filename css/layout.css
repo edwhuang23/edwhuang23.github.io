@@ -95,11 +95,14 @@ header .social li {
    padding: 0;
 }
 
-header .social li a .fa fa-linkedin { color: #fff; }
-header .social li a .fa fa-linkedin:hover { color: rgb(0,119, 181); }
-header .social li a .fa fa-instagram:hover { color: rgb(0, 255, 255) }
+.fab {
+   transition: all .3s ease-in-out;
+}
 
-header .social li a:hover { color: rgb(0,119, 181); }
+header .social li a .fab { color: #fff; }
+header .social li a .fa-linkedin-in:hover { color: rgb(0,119, 181); }
+header .social li a .fa-github:hover { color: rgb(36, 41, 46) }
+
 
 /* scrolldown link */
 header .scrolldown a {
@@ -107,7 +110,6 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #fff;
    display: block;
    height: 42px;
    width: 42px;
@@ -768,24 +770,6 @@ call-to-action .button {
    top: 17px;
 }
 
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
 
 
 /* ------------------------------------------------------------------ */

@@ -527,31 +527,30 @@
          <div class="eight columns">
 
             <!-- Personal Contact Form -->
-            <form action="sendEmail.php" method="post" enctype="text/plain"
-               id="contactForm" name="contactForm">
+            <form action="https://formspree.io/mgeolaev" method="POST" >
                <fieldset>
                   <div>
                      <label for="contactName">Your Name <span class="required">*</span></label>
-                     <input type="text" value="" size="35" id="contactName" name="contactName">
+                     <input type="text" value="" size="35" id="contactName" name="name">
                   </div>
 
                   <div>
                      <label for="contactEmail">Your Email <span class="required">*</span></label>
-                     <input type="email" value="" size="35" id="contactEmail" name="contactEmail">
+                     <input type="email" value="" size="35" id="contactEmail" name="_replyto">
                   </div>
 
                   <div>
                      <label for="contactSubject">Subject <span class="required">*</span></label>
-                     <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                     <input type="text" value="" size="35" id="contactSubject" name="subject">
                   </div>
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
+                     <button type="submit" class="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>

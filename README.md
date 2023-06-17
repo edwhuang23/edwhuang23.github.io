@@ -2,6 +2,6 @@
 
 This is my personal website that includes everything from my resume to personal projects!
 
-## Testing 
+## Run local website 
 
-To test changes, run `bundle exec jekyll serve`
+To run local website, run `bundle exec jekyll serve`
